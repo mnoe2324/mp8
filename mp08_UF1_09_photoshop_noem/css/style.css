@@ -1,0 +1,69 @@
+body:before{
+    content:"Ps";
+    color:#31a8ff;
+    margin:auto;
+    font-size: 100px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    line-height: 150px;
+    display: block;
+    width:150px;
+    height:150px;
+    background-color: navy;
+    border-radius: 30px;
+}
+.contenidor{
+    width:800px;
+    margin:auto;
+    text-align: center;
+}
+.efecte{
+    width:150px;
+    height:250px;
+    margin:10px;
+    text-align: center;
+    display: inline-block;
+}
+.imatge{
+    width:100px;
+    height:150px;
+    background:red;
+    text-align: center;
+    background-image: url(../img/durian.jpeg);
+    background-size:cover;
+    background-position: center;
+    margin: auto;
+}
+.desenfoc .imatge{
+    filter: blur(5px);
+}
+.lluminositat .imatge{
+    filter: brightness(2);
+}
+.contrast .imatge{
+    filter: contrast(200%);
+}
+.ombra .imatge{
+    filter:drop-shadow(10px 5px 10px green)
+}
+.grisos .imatge{
+    filter:grayscale(100%)
+}
+.tosaturacio .imatge{
+    filter:hue-rotate(90deg);
+}
+.invertir .imatge{
+    filter:invert()
+}
+.opacitat .imatge{
+    filter:opacity(50%)
+}
+.saturacio .imatge{
+    filter:saturate(400%);
+
+}
+.sepia .imatge{
+    filter: sepia();
+}
+

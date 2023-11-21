@@ -1,0 +1,102 @@
+body{
+    font-family: Arial, "Helvetica", sans-serif;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-size: 24px;
+}
+p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 22px;
+}
+h1, p{
+    padding:25px;
+    width: 350px;
+    margin:0;
+}
+#menu{
+    background-color: #FFF;
+    height: 40px;
+}
+li{
+    display: inline;
+    margin:0 25px 0 0;
+    background-color:#6C3;
+    padding: 10px;
+    border-top-left-radius:10px;
+}
+#coneix{
+    background-color: #6C3;
+    height:550px;
+    background-image: url(img/img-hero-full-list.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+#tot{
+    background-color: #FFF;
+    height: 641px;
+    background-image: url(img/allinone.jpg);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+#util{
+    background-color: #333333;
+    height: 500px;
+    color:#ccc;
+    background-image: url(img/curator-short.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+#rapid{
+    background-color: #EEECEE;
+    height: 550px;
+    background-image: url(img/img-hero-full-list.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+#facil{
+    background-color: #6C3;
+    height: 550px;
+    background-image: url(img/mobile-share.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+#arreu{
+    background-color: #EEECEE;
+    height: 643px;
+    background-image: url(img/anywhere.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+#canvia{
+    background-color: #333333;
+    height:200px;
+    text-align: center;
+}
+#menu img{
+    display: inline;
+}
+#canvia img{
+    margin:25px;
+}
+ul{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+
+#tornar{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color:white;
+    position: fixed;
+    bottom: 200px;
+    right:200px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 125px;
+}

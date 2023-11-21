@@ -1,0 +1,85 @@
+*{
+    margin:0rem;
+}
+body{
+    background-color: #222;
+}
+.barra{
+    height:3.125rem;
+    background-color: black;
+    opacity: 0.5;
+    width:100%;
+    z-index: 1000;
+    position: fixed;
+}
+.barra img{
+    margin-left:1.25rem;
+    margin-right:1.25rem;
+    margin-top:0.3125rem;
+    margin-bottom: 0.3125rem;
+}
+.barra a{
+    font-size: 1.25rem;
+    color:#CCC;
+    margin:1.25rem;
+}
+.enllac2{
+    float:right;
+}
+.contenedor{
+    width:100%;
+    float: left;
+    padding-top:3.75rem;
+}
+.contenedor a:hover{
+    text-decoration: none;
+}
+a{
+    font-family: helvetica;
+    text-decoration: none;
+}
+a:hover{
+    color:#FFF;
+    text-decoration: underline 0.125rem;
+}
+h1{
+    font-family: helvetica;
+    font-weight: bold;
+    color:#FFF;
+    margin-left:1.25rem;
+}
+img{
+    border-radius: 0.3125rem;
+}
+.peli{
+    width:10.9375rem;
+    margin:1.25rem;
+    float: left;
+}
+.peli:hover{
+    opacity:0.5;
+}
+.vista{
+    -webkit-filter:grayscale(100%);
+    -moz-filter:grayscale(100%);
+    filter:grayscale(100%)
+}
+h3{
+    color:#CCC;
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+h4{
+    color:#CCC;
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 0.6875rem;
+    display: inline-block;
+}
+.data{
+    float: left;
+}
+.tipus{
+    float: right;
+}

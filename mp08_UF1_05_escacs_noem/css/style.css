@@ -1,0 +1,55 @@
+.taulell{
+    width:800px;
+    height:800px;
+    background-color: burlywood;
+    margin:0 auto;
+    border: brown 10px solid;
+}
+.casella{
+    width:100px;
+    height:100px;
+    background-color:white;
+    float:left;
+    background-image:linear-gradient(to top, white, antiquewhite);
+}
+.filera:nth-child(2n+1) .casella:nth-child(2n){
+    background-color: black;
+    background-image:linear-gradient(to top, lightcoral, lightsalmon);
+}
+.filera:nth-child(2n) .casella:nth-child(2n+1){
+    background-color: black;
+    background-image:linear-gradient(to top, lightcoral, lightsalmon);
+}
+b{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    background-color: white;
+    display: block;
+    margin:10px;
+    background-image:linear-gradient(to top, grey, brown);
+    box-shadow: 1px 1px 3px black;
+}
+.filera:nth-child(n+3) b{
+    display: none;
+    background-image:linear-gradient(to top, burlywood, tan);
+    box-shadow: 1px 1px 3px black;
+}
+.filera:nth-child(n+7) b{
+    display: block;
+    background-color: black;
+    background-image:linear-gradient(to top, burlywood,#FF7D23);
+    box-shadow: 1px 1px 3px black;
+}
+b:hover{
+    position: relative;
+    bottom: -100px;
+    transition: all;
+}
+.filera:nth-child(n+7) b:hover{
+    position:relative;
+    bottom:100px;
+}
+
+
+

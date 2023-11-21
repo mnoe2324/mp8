@@ -1,0 +1,184 @@
+.menu{
+    background-color:white;
+    height:168px;
+}
+body{
+    font-family: sans-serif;
+}
+.contactes{
+    height:195px;
+}
+.contingut{
+    height: 1665px;
+}
+.centrador{
+    width:1665px;
+    overflow: hidden;
+    margin:0 auto;
+}
+li{
+    display: inline-block;
+    margin: 10px;
+    background-color:white;
+    width:82px;
+    height:82px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 200px;
+    }
+ul{
+    width:1060px;
+    margin:auto;
+    padding:36px;
+}
+#contacte01{
+    background-image: url(../img/Trollface_non-free.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#contacte01:hover{
+    background-size: 200%;
+    background-position: center;
+}
+#contacte02{
+    background-image: url(../img/ifpagram_07.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#contacte03{
+    background-image: url(../img/ifpagram_09.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#contacte04{
+    background-image: url(../img/fernan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#contacte05{
+    background-image: url(../img/pablo.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#contacte06{
+    background-image: url(../img/ifpagram_d.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#contacte07{
+    background-image: url(../img/ifpagram_c.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#contacte08{
+    background-image: url(../img/ifpagram_a.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#contacte09{
+    background-image: url(../img/ifpagram_g.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#contacte10{
+    background-image: url(../img/kevin.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    padding-left:77px;
+    padding-top: 75px;
+    float: left;
+}
+
+.user{
+    float: right;
+    padding-top: 66px;
+}
+
+.nav{
+   margin:auto;
+   float:left;
+   padding-top: 75px;
+   padding-left: 700px;
+}
+
+.nav ul{
+    height:50px;
+    width:296px;
+    padding:0;
+    margin:auto;
+}
+.nav ul li{
+    width:42px;
+    height:42px;
+    margin: 4px;
+}
+.home{
+    background-image: url(../img/nav.png);
+    background-repeat: no-repeat;
+    background-position: -27px;
+}
+.search{
+    background-image: url(../img/nav.png);
+    background-repeat: no-repeat;
+    background-position: -114px;
+}
+.tv{
+    background-image: url(../img/nav.png);
+    background-repeat: no-repeat;
+    background-position: -195px;
+}
+.like{
+    background-image: url(../img/nav.png);
+    background-repeat: no-repeat;
+    background-position: -280px;
+}
+.post{
+    width:535px;
+    margin:0 auto;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    float:left;
+    height:600px;
+}
+.post img{
+    width: 535px;
+}
+.post div{
+    width: 150px;
+    margin:5px;
+    height:70px;
+}
+.post .postejador{
+    float:left
+}
+.post .postejador img{
+    width: 50px;
+    height:50px;
+    float: left;
+    border-radius: 50%;
+}
+.post .reaccions{
+    float:right;
+    width: 170px;
+}
+.post h5{
+    height:25px;
+    line-height: 25px;
+    font-weight: 700;
+}
+.post h6{
+    height:25px;
+    line-height: 25px;
+}
+a:link{
+    opacity:100%;
+}
+a:hover{
+    opacity: 60%;
+    background-size: 200%;
+}

@@ -1,0 +1,173 @@
+*{
+    margin:0px;
+}
+.barra{
+    height:50px;
+    background-color: black;
+    opacity:150%;
+    overflow:hidden
+}
+.barra img{
+    height:40px;
+    margin-left:20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    float: left;
+}
+a{
+    font-size: 20px;
+    font-family: helvetica;
+    color: #CCC;
+    text-decoration: none;
+    margin:5px;
+    float: left;
+    top:10px;
+    position: relative;
+}
+a:hover{
+    color:#FFF;
+    text-decoration: underline 2px;
+}
+.enllac2{
+    float:right;
+}
+.contenedor{
+    height:600px;
+    background-color:#222;
+    overflow: hidden;
+}
+.contenedor2{
+    height:400px;
+    background-color:#222;
+    overflow:hidden;
+}
+.contenedor3{
+    height:400px;
+    background-color:#222;
+    overflow: hidden;
+}
+.contenedor4{
+    height:400px;
+    background-color:#222;
+    overflow: hidden;
+}
+.contenedor5{
+    height:400px;
+    background-color:#222;
+    overflow: hidden;
+}
+.contenedor6{
+    height:400px;
+    background-color:#222;
+    overflow: hidden;
+}
+h1{
+    color:white;
+    font-weight: bold;
+    font-family: helvetica;
+    margin-left:20px;
+    top:10px;
+    position: relative;
+}
+.peli{
+    width:175px;
+    height:260px;
+    border-radius: 5px;
+    margin:20px;
+    float: left;
+}
+#peli01{
+    background-image: url(../img/1982Koyaanisqatsi.jpg);
+}
+#peli02{
+    background-image: url(../img/2004YTuQueSabes.jpg);
+}
+#peli03{
+    background-image: url(../img/2005Earthlings.jpg);
+}
+#peli04{
+    background-image: url(../img/2007Helvetica.jpg);
+}
+#peli05{
+    background-image: url(../img/2007Sicko.jpg);
+}
+#peli06{
+    background-image: url(../img/2008Zeitgeist2.jpg);
+}
+#peli07{
+    background-image: url(../img/2009ArtAndCopy.jpg)
+}
+#peli08{
+    background-image: url(../img/2009Home.jpg);
+}
+#peli09{
+    background-image: url(../img/2009RipARemixManifesto.jpg);
+    -webkit-filter: grayscale(100%);
+    -moz-filter:grayscale(100%);
+    filter: grayscale(100%);
+}
+#peli10{
+    background-image: url(../img/2010ComprarTirarComprar.jpg);
+    -webkit-filter: grayscale(100%);
+    -moz-filter:grayscale(100%);
+    filter: grayscale(100%);
+}
+#peli11{
+    background-image: url(../img/2010InsideJob.jpg);
+    -webkit-filter: grayscale(100%);
+    -moz-filter:grayscale(100%);
+    filter: grayscale(100%);
+}
+#peli12{
+    background-image: url(../img/2011LaDoctrinaDeShock.jpg);
+    -webkit-filter: grayscale(100%);
+    -moz-filter:grayscale(100%);
+    filter: grayscale(100%);
+}
+#peli13{
+    background-image: url(../img/2012SearchingForSugarMan.jpg);
+}
+#peli14{
+    background-image: url(../img/2012TheActOfKilling.jpg);
+}
+#peli15{
+    background-image: url(../img/2013ElEspirituDel45.jpg);
+    -webkit-filter: grayscale(100%);
+    -moz-filter:grayscale(100%);
+    filter: grayscale(100%);
+}
+#peli16{
+    background-image: url(../img/XXXXpeli.jpg);
+    -webkit-filter: grayscale(100%);
+    -moz-filter:grayscale(100%);
+    filter: grayscale(100%);
+}
+#peli17{
+    background-image: url(../img/XXXXpeli.jpg);
+}
+#peli18{
+    background-image: url(../img/XXXXpeli.jpg);
+}
+#peli19{
+    background-image: url(../img/XXXXserie.jpg);
+    -webkit-filter: grayscale(100%);
+    -moz-filter:grayscale(100%);
+    filter: grayscale(100%);
+}
+#peli20{
+    background-image: url(../img/XXXXserie.jpg);
+    -webkit-filter: grayscale(100%);
+    -moz-filter:grayscale(100%);
+    filter: grayscale(100%);
+}
+p{
+font-size: 14px;
+color:#CCC;
+top:260px;
+position: relative;
+font-weight: bold;
+font-family: helvetica;
+display: inline;
+}
+
