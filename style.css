@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    position: relative;
+}
+.cabecera{
+    width:100%;
+    height:25rem;
+    background:black;
+}
+.cabecera p{
+    font-size: 5rem;
+    padding-top: 3rem;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left:2.1875rem;
+}
+.caratula{
+    width:600px;
+    float:right;
+    top:-310px;
+    padding-right:5rem;
+    border-radius:50%;
+}
+.logoifp{
+    width:200px;
+    left:1000px;
+    top:-230px;
+}
+.menu{
+    background-color: lightgreen;
+    width:100%;
+    height:400px;
+    margin:0;
+}
+.practicas{
+    width:300px;
+    height:100px;
+    background-color: white;
+    border: 3px solid black;
+    float: left;
+    margin:20px;
+    font-size: 40px;
+    text-align: center;
+}
