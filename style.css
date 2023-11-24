@@ -5,40 +5,165 @@
 .cabecera{
     width:100%;
     height:25rem;
-    background:black;
+    background: linear-gradient(to bottom left, white 50%, black 50%)
 }
 .cabecera p{
     font-size: 5rem;
-    padding-top: 3rem;
+    padding-top: 7.5rem;
     color:white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Caveat', cursive;
     margin-left:2.1875rem;
-}
-.caratula{
-    width:600px;
-    float:right;
-    top:-310px;
-    padding-right:5rem;
-    border-radius:50%;
 }
 .logoifp{
     width:200px;
     left:1000px;
-    top:-230px;
+    bottom:390px;
+}
+.insti{
+    width:600px;
+    left:1300px;
+    bottom:300px;
+    border-radius: 50%;
+    border-bottom: 5px white solid;
+    border-top:5px black solid;
 }
 .menu{
     background-color: lightgreen;
     width:100%;
-    height:400px;
-    margin:0;
+    height:300px;
 }
 .practicas{
-    width:300px;
+    width:350px;
     height:100px;
+    left:5%;
     background-color: white;
     border: 3px solid black;
     float: left;
     margin:20px;
     font-size: 40px;
     text-align: center;
+    line-height: 100px;
+    font-family: 'Vina Sans', sans-serif;
+    box-shadow: 10px 5px 5px black;
+}
+.activitat{
+    width:100%;
+    background-color: black;
+    height:550px;
+}
+.activitat h2{
+    font-size: 8rem;
+    font-family: 'Caveat', cursive;
+    margin-left: 2.1875rem;
+}
+.activitat h3{
+    font-size: 4rem;
+    font-family: 'Caveat', cursive;
+    margin-left: 2.1875rem;
+}
+.uno h2{
+    color:white;
+    text-align: right;
+    right:150px;
+}
+.uno h3{
+    color:white;
+    text-align: right;
+    right:150px;
+}
+.uno p{
+    color:white;
+    font-size: 35px;
+    text-align: right;
+    right:150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.uno img{
+    width:500px;
+    bottom:300px;
+    left:2.1875rem;
+    border-radius: 30%;
+    border: 5px lightsalmon solid;
+}
+.dos{
+    background-color: white;
+}
+.dos p{
+    color:black;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 2.1875rem;
+}
+.dos img{
+    width:700px;
+    border-radius: 30%;
+    border: 5px lightsalmon solid;
+    left:1370px;
+    bottom:350px;
+}
+.tres h2{
+    color:white;
+    text-align: right;
+    right:150px;
+}
+.tres h3{
+    color:white;
+    text-align: right;
+    right:150px;
+}
+.tres p{
+    color:white;
+    font-size: 35px;
+    text-align: right;
+    right:150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tres img{
+    width:700px;
+    bottom:300px;
+    left:2.1875rem;
+    border-radius: 30%;
+    border: 5px lightsalmon solid;
+}
+.cuatro{
+    background-color: white;
+}
+.cinco h2{
+    color:white;
+    text-align: right;
+    right:150px;
+}
+.cinco h3{
+    color:white;
+    text-align: right;
+    right:150px;
+}
+.seis{
+    background-color: white;
+}
+.siete h2{
+    color:white;
+    text-align: right;
+    right:150px;
+}
+.siete h3{
+    color:white;
+    text-align: right;
+    right:150px;
+}
+.ocho{
+    background-color: white;
+}
+.nueve h2{
+    color:white;
+    text-align: right;
+    right:150px;
+}
+.nueve h3{
+    color:white;
+    text-align: right;
+    right:150px;
+}
+.diez{
+    background-color: white;
 }
