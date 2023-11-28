@@ -27,10 +27,19 @@
     border-bottom: 5px white solid;
     border-top:5px black solid;
 }
+.insti:hover{
+    opacity:50%;
+}
 .menu{
     background-color: lightgreen;
     width:100%;
     height:300px;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color:black;
 }
 .practicas{
     width:350px;
@@ -46,10 +55,16 @@
     font-family: 'Vina Sans', sans-serif;
     box-shadow: 10px 5px 5px black;
 }
+.practicas:hover{
+    opacity:50%;
+}
 .activitat{
     width:100%;
     background-color: black;
     height:550px;
+}
+.activitat img:hover{
+    opacity:50%;
 }
 .activitat h2{
     font-size: 8rem;
@@ -128,6 +143,19 @@
 .cuatro{
     background-color: white;
 }
+.cuatro img{
+    width:700px;
+    border-radius: 10%;
+    border: 5px lightsalmon solid;
+    left:1370px;
+    bottom:280px;
+}
+.cuatro p{
+    color:black;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 2.1875rem;
+}
 .cinco h2{
     color:white;
     text-align: right;
@@ -138,8 +166,35 @@
     text-align: right;
     right:150px;
 }
+.cinco p{
+    color:white;
+    font-size: 35px;
+    text-align: right;
+    right:150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cinco img{
+    width:500px;
+    bottom:340px;
+    left:2.1875rem;
+    border-radius: 30%;
+    border: 5px lightsalmon solid;
+}
 .seis{
     background-color: white;
+}
+.seis img{
+    width:1500px;
+    border-radius: 10%;
+    border: 5px lightsalmon solid;
+    left:700px;
+    bottom:300px;
+}
+.seis p{
+    color:black;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 2.1875rem;
 }
 .siete h2{
     color:white;
@@ -151,8 +206,35 @@
     text-align: right;
     right:150px;
 }
+.siete p{
+    color:white;
+    font-size: 35px;
+    text-align: right;
+    right:150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.siete img{
+    width:700px;
+    bottom:200px;
+    left:2.1875rem;
+    border-radius: 30%;
+    border: 5px lightsalmon solid;
+}
 .ocho{
     background-color: white;
+}
+.ocho img{
+    width:300px;
+    border-radius: 10%;
+    border: 5px lightsalmon solid;
+    left:1600px;
+    bottom:350px;
+}
+.ocho p{
+    color:black;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 2.1875rem;
 }
 .nueve h2{
     color:white;
@@ -164,6 +246,75 @@
     text-align: right;
     right:150px;
 }
+.nueve p{
+    color:white;
+    font-size: 35px;
+    text-align: right;
+    right:150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nueve img{
+    width:400px;
+    bottom:355px;
+    left:2.1875rem;
+    border-radius: 30%;
+    border: 5px lightsalmon solid;
+}
 .diez{
     background-color: white;
+}
+.diez img{
+    width:700px;
+    border-radius: 10%;
+    border: 5px lightsalmon solid;
+    left:1300px;
+    bottom:350px;
+}
+.diez p{
+    color:black;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 2.1875rem;
+}
+.jo{
+    width:100%;
+    height:470px;
+    background-color: lightgreen;
+}
+@font-face{
+    font-family: "hollywood";
+    src: url(../mp8/fonts/Hollywood\ Capital.ttf);
+}
+h1{
+    font-size: 170px;
+    text-align: left;
+    font-family: "hollywood";
+    margin-left: 2.1875rem;
+    top:30px;
+}
+@font-face {
+    font-family: "script";
+    src: url(../mp8/fonts/HOLLYWOOD\ STARFIRE.ttf);
+}
+.jo p{
+    font-family: "script";
+    font-size: 30px;
+    text-align: right;
+    bottom:630px;
+    width:40%;
+    left:1300px;
+}
+.jo img{
+    width:300px;
+    border-radius: 30%;
+    left:900px;
+    bottom:300px;
+}
+.jo img:hover{
+    opacity:50%;
+}
+.footer{
+    width:100%;
+    height:230px;
+    background-color: black;
 }
