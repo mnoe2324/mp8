@@ -15,16 +15,16 @@
     margin-left:2.1875rem;
 }
 .logoifp{
-    width:200px;
-    left:1000px;
-    bottom:390px;
+    width:12.5rem;
+    left:62.5rem;
+    bottom:24.375rem;
 }
 .insti{
-    width:600px;
-    left:1300px;
-    bottom:300px;
+    width:37.5rem;
+    left:81.25rem;
+    bottom:18.75rem;
     border-radius: 50%;
-    border-bottom: 5px white solid;
+    border-bottom: 0.3125rem white solid;
 }
 .insti:hover{
     opacity:50%;
@@ -32,7 +32,7 @@
 .menu{
     background-color: lightgreen;
     width:100%;
-    height:300px;
+    height:18.75rem;
 }
 a:link{
     color:black;
@@ -41,18 +41,18 @@ a:visited{
     color:black;
 }
 .practicas{
-    width:350px;
-    height:100px;
+    width:21.875rem;
+    height:6.25rem;
     left:5%;
     background-color: white;
-    border: 3px solid black;
+    border: 0.1875rem solid black;
     float: left;
-    margin:20px;
-    font-size: 40px;
+    margin:1.25rem;
+    font-size: 2.5rem;
     text-align: center;
-    line-height: 100px;
+    line-height: 6.25rem;
     font-family: 'Vina Sans', sans-serif;
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 0.625rem 0.3125rem 0.3125rem black;
 }
 .practicas:hover{
     opacity:50%;
@@ -60,7 +60,7 @@ a:visited{
 .activitat{
     width:100%;
     background-color: black;
-    height:550px;
+    height:34.375rem;
 }
 .activitat img:hover{
     opacity:50%;
@@ -78,178 +78,178 @@ a:visited{
 .uno h2{
     color:white;
     text-align: right;
-    right:150px;
+    right:9.375rem;
 }
 .uno h3{
     color:white;
     text-align: right;
-    right:150px;
+    right:9.375rem;
 }
 .uno p{
     color:white;
-    font-size: 35px;
+    font-size: 2.1875rem;
     text-align: right;
-    right:150px;
+    right:9.375rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .uno img{
-    width:500px;
-    bottom:300px;
+    width:31.25rem;
+    bottom:18.75rem;
     left:2.1875rem;
     border-radius: 30%;
-    border: 5px lightsalmon solid;
+    border: 0.3125rem lightsalmon solid;
 }
 .dos{
     background-color: white;
 }
 .dos p{
     color:black;
-    font-size: 35px;
+    font-size: 2.1875rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 2.1875rem;
 }
 .dos img{
-    width:700px;
+    width:43.75rem;
     border-radius: 30%;
-    border: 5px lightsalmon solid;
+    border: 0.3125rem lightsalmon solid;
     left:1370px;
-    bottom:350px;
+    bottom:21.875rem;
 }
 .tres h2{
     color:white;
     text-align: right;
-    right:150px;
+    right:9.375rem;
 }
 .tres h3{
     color:white;
     text-align: right;
-    right:150px;
+    right:9.375rem;
 }
 .tres p{
     color:white;
-    font-size: 35px;
+    font-size: 2.1875rem;
     text-align: right;
-    right:150px;
+    right:9.375rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .tres img{
-    width:700px;
-    bottom:300px;
+    width:43.75rem;
+    bottom:18.75rem;
     left:2.1875rem;
     border-radius: 30%;
-    border: 5px lightsalmon solid;
+    border: 0.3125rem lightsalmon solid;
 }
 .cuatro{
     background-color: white;
 }
 .cuatro img{
-    width:700px;
+    width:43.75rem;
     border-radius: 10%;
-    border: 5px lightsalmon solid;
-    left:1370px;
-    bottom:280px;
+    border: 0.3125rem lightsalmon solid;
+    left:85.625rem;
+    bottom:17.5rem;
 }
 .cuatro p{
     color:black;
-    font-size: 35px;
+    font-size: 2.1875rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 2.1875rem;
 }
 .cinco h2{
     color:white;
     text-align: right;
-    right:150px;
+    right:9.375rem;
 }
 .cinco h3{
     color:white;
     text-align: right;
-    right:150px;
+    right:9.375rem;
 }
 .cinco p{
     color:white;
-    font-size: 35px;
+    font-size: 2.1875rem;
     text-align: right;
-    right:150px;
+    right:9.375rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .cinco img{
-    width:500px;
-    bottom:340px;
+    width:31.25rem;
+    bottom:21.25rem;
     left:2.1875rem;
     border-radius: 30%;
-    border: 5px lightsalmon solid;
+    border: 0.3125rem lightsalmon solid;
 }
 .seis{
     background-color: white;
 }
 .seis img{
-    width:1500px;
+    width:93.75rem;
     border-radius: 10%;
-    border: 5px lightsalmon solid;
-    left:700px;
-    bottom:300px;
+    border: 0.3125rem lightsalmon solid;
+    left:43.75rem;
+    bottom:18.75rem;
 }
 .seis p{
     color:black;
-    font-size: 35px;
+    font-size: 2.1875rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 2.1875rem;
 }
 .siete h2{
     color:white;
     text-align: right;
-    right:150px;
+    right:9.375rem;
 }
 .siete h3{
     color:white;
     text-align: right;
-    right:150px;
+    right:9.375rem;
 }
 .siete p{
     color:white;
-    font-size: 35px;
+    font-size: 2.1875rem;
     text-align: right;
-    right:150px;
+    right:9.375rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .siete img{
-    width:700px;
-    bottom:200px;
+    width:43.75rem;
+    bottom:12.5rem;
     left:2.1875rem;
     border-radius: 30%;
-    border: 5px lightsalmon solid;
+    border: 0.3125rem lightsalmon solid;
 }
 .ocho{
     background-color: white;
 }
 .ocho img{
-    width:300px;
+    width:18.75rem;
     border-radius: 10%;
-    border: 5px lightsalmon solid;
-    left:1600px;
-    bottom:350px;
+    border: 0.3125rem lightsalmon solid;
+    left:100rem;
+    bottom:21.875rem;
 }
 .ocho p{
     color:black;
-    font-size: 35px;
+    font-size: 2.1875rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 2.1875rem;
 }
 .nueve h2{
     color:white;
     text-align: right;
-    right:150px;
+    right:9.375rem;
 }
 .nueve h3{
     color:white;
     text-align: right;
-    right:150px;
+    right:9.375rem;
 }
 .nueve p{
     color:white;
-    font-size: 35px;
+    font-size: 2.1875rem;
     text-align: right;
-    right:150px;
+    right:9.375rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .nueve img{
@@ -257,21 +257,21 @@ a:visited{
     bottom:355px;
     left:2.1875rem;
     border-radius: 30%;
-    border: 5px lightsalmon solid;
+    border: 0.3125rem lightsalmon solid;
 }
 .diez{
     background-color: white;
 }
 .diez img{
-    width:700px;
+    width:43.75rem;
     border-radius: 10%;
     border: 5px lightsalmon solid;
-    left:1300px;
+    left:81.25rem;
     bottom:330px;
 }
 .diez p{
     color:black;
-    font-size: 35px;
+    font-size: 2.1875rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 2.1875rem;
 }
@@ -308,7 +308,7 @@ h1{
     width:300px;
     border-radius: 30%;
     left:900px;
-    bottom:100px;
+    bottom:6.25rem;
     border: 3px solid white;
 }
 .jo img:hover{
@@ -327,8 +327,8 @@ h1{
     border: dashed;
 }
 #tornar{
-    width: 100px;
-    height: 100px;
+    width: 6.25rem;
+    height: 6.25rem;
     background-color: lightcoral;
     color:black;
     position: fixed;
