@@ -2,6 +2,11 @@
     margin:0;
     position: relative;
 }
+@media screen and (max-width:30rem) {
+    .cabecera{
+        height:50rem;
+    }
+}
 .cabecera{
     width:100%;
     height:25rem;
