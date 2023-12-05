@@ -2,13 +2,19 @@
     margin:0;
     position: relative;
 }
-@media screen and (max-width:30rem) {
-    .cabecera{
-        height:50rem;
-    }
+@font-face{
+    font-family: "hollywood";
+    src: url(fonts/Hollywood\ Capital.ttf);
+}
+@font-face {
+    font-family: "script";
+    src: url(fonts/HOLLYWOOD\ STARFIRE.ttf);
+}
+body, html{
+    width: 100%;
+    overflow-x: hidden;
 }
 .cabecera{
-    width:100%;
     height:25rem;
     background: linear-gradient(to bottom left, white 50%, black 50%)
 }
@@ -36,8 +42,8 @@
 }
 .menu{
     background-color: lightgreen;
-    width:100%;
     height:18.75rem;
+    overflow: hidden;
 }
 a:link{
     color:black;
@@ -63,34 +69,58 @@ a:visited{
     opacity:50%;
 }
 .activitat{
-    width:100%;
     background-color: black;
     height:34.375rem;
 }
 .activitat img:hover{
     opacity:50%;
 }
-.activitat h2{
+.text-dreta p{
+    width: 60%;
+    float: right;
+}
+.text-esquerra p{
+    width: 60%;
+}
+.text-esquerra h2{
     font-size: 8rem;
+    margin-left: 2rem;
     font-family: 'Caveat', cursive;
-    margin-left: 2.1875rem;
 }
-.activitat h3{
+.text-esquerra h3{
     font-size: 4rem;
+    margin-left: 2rem;
     font-family: 'Caveat', cursive;
+}
+.uno h2, .tres h2, .cinco h2, .siete h2, .nueve h2{
+    color:white;
+    font-size: 8rem;
+    text-align: right;
+    margin-right:9.375rem;
+    font-family: 'Caveat', cursive;
+}
+.uno h3, .tres h3, .cinco h3, .siete h3, .nueve h3{
+    color:white;
+    font-size: 4rem;
+    text-align: right;
+    margin-right:9.375rem;
+    font-family: 'Caveat', cursive;
+}
+/*.uno h2, .uno h3{
+    color:white;
+    text-align: right;
+    margin-right:9.375rem;
+}*/
+.dos, .cuatro, .seis, .ocho, .diez{
+    background-color: white;
+}
+.dos p, .cuatro p, .seis p, .ocho p, .diez p{
+    color:black;
+    font-size: 2.1875rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 2.1875rem;
 }
-.uno h2{
-    color:white;
-    text-align: right;
-    right:9.375rem;
-}
-.uno h3{
-    color:white;
-    text-align: right;
-    right:9.375rem;
-}
-.uno p{
+.uno p, .tres p, .cinco p, .siete p, .nueve p{
     color:white;
     font-size: 2.1875rem;
     text-align: right;
@@ -99,19 +129,9 @@ a:visited{
 }
 .uno img{
     width:31.25rem;
-    bottom:18.75rem;
-    left:2.1875rem;
     border-radius: 30%;
+    bottom:12rem;
     border: 0.3125rem lightsalmon solid;
-}
-.dos{
-    background-color: white;
-}
-.dos p{
-    color:black;
-    font-size: 2.1875rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 2.1875rem;
 }
 .dos img{
     width:43.75rem;
@@ -120,32 +140,12 @@ a:visited{
     left:1370px;
     bottom:21.875rem;
 }
-.tres h2{
-    color:white;
-    text-align: right;
-    right:9.375rem;
-}
-.tres h3{
-    color:white;
-    text-align: right;
-    right:9.375rem;
-}
-.tres p{
-    color:white;
-    font-size: 2.1875rem;
-    text-align: right;
-    right:9.375rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 .tres img{
     width:43.75rem;
-    bottom:18.75rem;
+    bottom:12rem;
     left:2.1875rem;
     border-radius: 30%;
     border: 0.3125rem lightsalmon solid;
-}
-.cuatro{
-    background-color: white;
 }
 .cuatro img{
     width:43.75rem;
@@ -154,38 +154,12 @@ a:visited{
     left:85.625rem;
     bottom:17.5rem;
 }
-.cuatro p{
-    color:black;
-    font-size: 2.1875rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 2.1875rem;
-}
-.cinco h2{
-    color:white;
-    text-align: right;
-    right:9.375rem;
-}
-.cinco h3{
-    color:white;
-    text-align: right;
-    right:9.375rem;
-}
-.cinco p{
-    color:white;
-    font-size: 2.1875rem;
-    text-align: right;
-    right:9.375rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 .cinco img{
     width:31.25rem;
-    bottom:21.25rem;
+    bottom:13rem;
     left:2.1875rem;
     border-radius: 30%;
     border: 0.3125rem lightsalmon solid;
-}
-.seis{
-    background-color: white;
 }
 .seis img{
     width:93.75rem;
@@ -194,38 +168,12 @@ a:visited{
     left:43.75rem;
     bottom:18.75rem;
 }
-.seis p{
-    color:black;
-    font-size: 2.1875rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 2.1875rem;
-}
-.siete h2{
-    color:white;
-    text-align: right;
-    right:9.375rem;
-}
-.siete h3{
-    color:white;
-    text-align: right;
-    right:9.375rem;
-}
-.siete p{
-    color:white;
-    font-size: 2.1875rem;
-    text-align: right;
-    right:9.375rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 .siete img{
     width:43.75rem;
-    bottom:12.5rem;
+    bottom:8rem;
     left:2.1875rem;
     border-radius: 30%;
     border: 0.3125rem lightsalmon solid;
-}
-.ocho{
-    background-color: white;
 }
 .ocho img{
     width:18.75rem;
@@ -234,38 +182,12 @@ a:visited{
     left:100rem;
     bottom:21.875rem;
 }
-.ocho p{
-    color:black;
-    font-size: 2.1875rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 2.1875rem;
-}
-.nueve h2{
-    color:white;
-    text-align: right;
-    right:9.375rem;
-}
-.nueve h3{
-    color:white;
-    text-align: right;
-    right:9.375rem;
-}
-.nueve p{
-    color:white;
-    font-size: 2.1875rem;
-    text-align: right;
-    right:9.375rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 .nueve img{
     width:25rem;
-    bottom:22.1875e;
+    bottom:15rem;
     left:2.1875rem;
     border-radius: 30%;
     border: 0.3125rem lightsalmon solid;
-}
-.diez{
-    background-color: white;
 }
 .diez img{
     width:43.75rem;
@@ -274,20 +196,10 @@ a:visited{
     left:81.25rem;
     bottom:20.625rem;
 }
-.diez p{
-    color:black;
-    font-size: 2.1875rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 2.1875rem;
-}
 .jo{
     width:100%;
     height:29.375rem;
     background-color:rgb(86, 255, 190);
-}
-@font-face{
-    font-family: "hollywood";
-    src: url(../mp8/fonts/Hollywood\ Capital.ttf);
 }
 h1{
     font-size: 10.625rem;
@@ -296,10 +208,6 @@ h1{
     margin-left: 2.1875rem;
     top:7.5rem;
     color:black;
-}
-@font-face {
-    font-family: "script";
-    src: url(../mp8/fonts/HOLLYWOOD\ STARFIRE.ttf);
 }
 .jo p{
     font-family: "script";
@@ -320,7 +228,6 @@ h1{
     opacity:50%;
 }
 .footer{
-    width:100%;
     height:14.375rem;
     background-color: black;
 }
@@ -342,4 +249,56 @@ h1{
     border-radius: 3.125rem;
     text-align: center;
     font-size: 5rem;
+}
+
+
+@media screen and (max-width:30rem) {
+    .cabecera{
+       height: 11rem;
+       background: linear-gradient(to bottom left, white 30%, black 30%)
+    }
+    .cabecera p{
+        font-size: 2.5rem;
+        margin-left: 0.5rem;
+        bottom:4rem;
+    }
+    .logoifp{
+        display: none;
+    }
+    .insti{
+        display: none;
+    }
+    .menu{
+        height:70rem;
+    }
+    .practicas{
+        width:19rem;
+        height:4rem;
+        font-size: 2.5rem;
+        line-height:4rem;
+    }
+    .activitat{
+        height:20rem;
+    }
+    .activitat h2{
+        font-size: 2rem;
+    }
+    .activitat h3{
+        font-size: 2rem;
+    }
+    .activitat p{
+        font-size: 1rem;
+    }
+    .activitat img{
+        display: none;
+    }
+    .text-dreta{
+        width: 85%;
+        float: left;
+    }
+     .text-dreta h2, .text-dreta h3, .text-dreta p{
+        width: 100%;
+        margin: 0 0 0 2rem;
+        text-align: left;
+    }
 }
