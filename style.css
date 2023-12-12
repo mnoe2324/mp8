@@ -76,8 +76,17 @@ a:visited{
     opacity:50%;
 }
 .text-dreta p{
-    width: 60%;
+    width: 40%;
     float: right;
+}
+.text-esquerra{
+    width: 60%;
+    float: left;
+}
+
+.seis .text-esquerra p{
+    width:40%;
+    float: left;
 }
 .text-esquerra p{
     width: 60%;
@@ -131,6 +140,7 @@ a:visited{
     width:31.25rem;
     border-radius: 30%;
     bottom:12rem;
+    left:1rem;
     border: 0.3125rem lightsalmon solid;
 }
 .dos img{
@@ -138,11 +148,11 @@ a:visited{
     border-radius: 30%;
     border: 0.3125rem lightsalmon solid;
     left:1370px;
-    bottom:21.875rem;
+    bottom:24rem;
 }
 .tres img{
     width:43.75rem;
-    bottom:12rem;
+    bottom:18rem;
     left:2.1875rem;
     border-radius: 30%;
     border: 0.3125rem lightsalmon solid;
@@ -180,12 +190,12 @@ a:visited{
     border-radius: 10%;
     border: 0.3125rem lightsalmon solid;
     left:100rem;
-    bottom:21.875rem;
+    bottom:24rem;
 }
 .nueve img{
     width:25rem;
-    bottom:15rem;
-    left:2.1875rem;
+    bottom:22.3rem;
+    right:80rem;
     border-radius: 30%;
     border: 0.3125rem lightsalmon solid;
 }
@@ -201,13 +211,11 @@ a:visited{
     height:29.375rem;
     background-color:rgb(86, 255, 190);
 }
-h1{
-    font-size: 10.625rem;
-    text-align: left;
+.jo h1{
     font-family: "hollywood";
-    margin-left: 2.1875rem;
-    top:7.5rem;
-    color:black;
+    font-size: 10rem;
+    right:80rem;
+    top:9rem;
 }
 .jo p{
     font-family: "script";
@@ -220,8 +228,8 @@ h1{
 .jo img{
     width:18.75rem;
     border-radius: 30%;
-    left:56.25rem;
-    bottom:6.25rem;
+    bottom:5rem;
+    right:25rem;
     border: 0.1875rem solid white;
 }
 .jo img:hover{
@@ -298,7 +306,24 @@ h1{
     }
      .text-dreta h2, .text-dreta h3, .text-dreta p{
         width: 100%;
-        margin: 0 0 0 2rem;
         text-align: left;
     }
-}
+    .uno p, .tres p, .cinco p, .siete p, .nueve p{
+        width:50%;
+    }
+    .dos p{
+        width:75%;
+    }
+    .cuatro p, .seis p, .ocho p, .diez p{
+        width:50%;
+    }
+    .uno h2, .tres h2, .cinco h2, .siete h2, .nueve h2{
+        left:1.6rem;
+    }
+    .dos h2, .tres h2,.cuatro h2, .cinco h2, .seis h2, .siete h2, .nueve h2, .diez h2 {
+        top:0.5rem;
+    }
+    .uno h3, .tres h3, .cinco h3, .siete h3, .nueve h3{
+        left:1.6rem;
+        font-size: 2.5rem;
+    }
