@@ -12,6 +12,7 @@
 }
 body, html{
     width: 100%;
+    height:100%;
     overflow-x: hidden;
 }
 .cabecera{
@@ -71,6 +72,7 @@ a:visited{
 .activitat{
     background-color: black;
     height:34.375rem;
+    overflow: hidden;
 }
 .activitat img:hover{
     opacity:50%;
@@ -206,46 +208,50 @@ a:visited{
     left:81.25rem;
     bottom:20.625rem;
 }
-.jo{
-    width:100%;
-    height:29.375rem;
+
+/* ------- ABOUT ME ------------*/
+
+.jo {
     background-color:rgb(86, 255, 190);
+    overflow: hidden;
+    text-align: center;
+    padding: 5rem;
 }
-.jo h1{
-    font-family: "hollywood";
-    font-size: 10rem;
-    right:80rem;
-    top:9rem;
-}
-.jo p{
-    font-family: "script";
-    font-size: 1.875rem;
-    text-align:right;
-    bottom:26.875rem;
-    width:40%;
-    left:81.25rem;
-}
-.jo img{
-    width:18.75rem;
-    border-radius: 30%;
-    bottom:5rem;
-    right:25rem;
-    border: 0.1875rem solid white;
-}
-.jo img:hover{
-    opacity:50%;
-}
-.footer{
-    height:14.375rem;
-    background-color: black;
-}
-.linia{
-    width:99.8%;
-    height:0.1875rem;
-    background-color: white;
-    top:7.8125rem;
-    border: dashed;
-}
+
+    .jo a {
+        display: block;
+        width:45%;
+        float: left;
+        vertical-align: middle;
+    }
+
+    .jo img {
+        width:18rem;
+        border-radius: 50%;
+        border: 0.1875rem solid white;
+    }
+
+    .jo h1 { 
+        font-family: "hollywood";
+        font-size: 10rem;
+        text-align: center;
+    }
+
+    .jo img:hover {
+        opacity:50%;
+    }
+
+    .jo p {
+        font-family: "script";
+        font-size: 1.875rem;
+        width: 45%;
+        height: 28rem;
+        float: right;
+        vertical-align: middle;
+    }
+
+/* ------- ARROW ------------*/
+
 #tornar{
     width: 6.25rem;
     height: 6.25rem;
@@ -327,3 +333,29 @@ a:visited{
         left:1.6rem;
         font-size: 2.5rem;
     }
+
+.jo {
+    padding: 1rem;
+}
+    .jo a {
+        float: none;
+        width: 100%;
+    }
+
+    .jo h1 {
+        font-size: 8rem;
+    }
+
+    .jo p {
+        float: none;
+        font-size: 2rem;
+        width: 100%;
+        height: 100%;
+    }
+
+    #tornar{
+        width:4rem;
+        height:4rem;
+        font-size: 3rem;
+    }
+}
