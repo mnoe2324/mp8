@@ -16,6 +16,28 @@
     
     <title>Responsive</title>
     <style>
+        /*disseny comú*/
+        @font-face {
+        font-family: 'Fantasia';
+        src: url('fonts/Namecat.otf') format('EOT'),
+            url('fonts/Namecat.woff2') format('woff2'),
+            url('fonts/Namecat.woff') format('woff'),
+            url('fonts/Namecat.svg') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+        }
+
+
+
+        body{
+            font-size:2rem;
+            font-family:'Helvetica', Arial, sans-serif;
+        }
+        h1{
+            font-family:'Fantasia' ;
+        }
+
         /*disseny mobil vertical*/
             @media screen and (max-width:480px) {
                body{
@@ -34,9 +56,41 @@
                     background: orange;
                 }
             }
+
+            .progres{
+                height:1rem;
+                width:100%;
+                background:limegreen;
+                position:fixed;
+                top:0;
+                left:0;
+                right:0;
+                z-index:1000;
+                scale:0 1;
+                transform-origin:left;
+                animation: jacobo linear;
+                animation-timeline: scroll();
+                }
+                @keyframes jacobo {
+                to{
+                    scale:1 1;
+                }
+                }
     </style>
 </head>
 <body>
-    
+    <div class="progres"></div>
+    <h1>APP</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores nihil sit non quidem doloremque accusamus sed exercitationem dolorum at atque corporis aperiam sint, fugiat ad voluptate voluptatibus est vitae quaerat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores nihil sit non quidem doloremque accusamus sed exercitationem dolorum at atque corporis aperiam sint, fugiat ad voluptate voluptatibus est vitae quaerat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores nihil sit non quidem doloremque accusamus sed exercitationem dolorum at atque corporis aperiam sint, fugiat ad voluptate voluptatibus est vitae quaerat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores nihil sit non quidem doloremque accusamus sed exercitationem dolorum at atque corporis aperiam sint, fugiat ad voluptate voluptatibus est vitae quaerat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores nihil sit non quidem doloremque accusamus sed exercitationem dolorum at atque corporis aperiam sint, fugiat ad voluptate voluptatibus est vitae quaerat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores nihil sit non quidem doloremque accusamus sed exercitationem dolorum at atque corporis aperiam sint, fugiat ad voluptate voluptatibus est vitae quaerat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores nihil sit non quidem doloremque accusamus sed exercitationem dolorum at atque corporis aperiam sint, fugiat ad voluptate voluptatibus est vitae quaerat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores nihil sit non quidem doloremque accusamus sed exercitationem dolorum at atque corporis aperiam sint, fugiat ad voluptate voluptatibus est vitae quaerat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores nihil sit non quidem doloremque accusamus sed exercitationem dolorum at atque corporis aperiam sint, fugiat ad voluptate voluptatibus est vitae quaerat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores nihil sit non quidem doloremque accusamus sed exercitationem dolorum at atque corporis aperiam sint, fugiat ad voluptate voluptatibus est vitae quaerat!</p>
+
 </body>
 </html>

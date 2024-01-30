@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+    <style>
+        .bola{
+            width:5rem;
+            height:5rem;
+            background: skyblue;
+            margin:1rem;
+            border-radius: 50%;
+        }
+    </style>
+    <script>
+        // Aquí es parla Javascript 
+    // Primitives
+    const pi = 3.14; // floating o decimals
+    var x = 6; // integer o enters
+    let nom = "Miguel"; // strings o cadenes
+    undefined
+    null
+    let estatdelallum = true; //boolean --> cert o fals
+
+    // Operadors
+    //let concatenacio = (x+nom);
+        // aritmètics 
+        // + - * / % ++ **
+
+        //Comparació
+        // == != === > >= < <= 
+
+        //Lògics
+        // && => AND   || ==> OR   => NOT
+        //alert();
+        //prompt("Escriu el teu nom");
+        console.log(++x);
+        document.write(nom);
+        document.body.style.background="red";
+
+        //DOM
+        //document window element 
+
+        //instancies
+        // getElementsByTagName --> selecciona'm els elements d'una determinada etiqueta
+        // getElementById --> selecciona l'element amb una determinada ID
+        // getElementsByClassName --> selecciona tots els elements d'una classe
+        // getElementsByName --> selecciona pel name
+
+        canviacolor(){
+            document.getElementsByClassName("bola").style.background ="yellow";
+        };
+    </script>
+</head>
+<body>
+    <div class="bola"></div>
+    <div class="bola" id="destacada"></div>
+    <div class="bola"></div>
+    <div class="bola"></div>
+
+    <button onmousedown="canviacolor()">Canvia</button>
+</body>
+</html>
