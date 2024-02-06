@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Declaració de variables
+
+        var mailguardat="mnoe@ifp-alguero.org";
+        var contrasenyaguardada="12345678";
+    
+        // Demanar la informació a l'usuari mitjançant un prompt
+
+        var mailintroduit=prompt("Escriu el teu correu");
+        var contrasenyaintroduida=prompt("Introdueix la contrasenya");
+
+        // Comparem unes dades amb les altres
+        // ==Igual ===Exactament igual =!Desigual
+        // & and
+        // Amb condicionals podem fer comparacions
+         
+        if (mailguardat == mailintroduit & contrasenyaguardada == contrasenyaintroduida){
+            //alert("Endavant");
+            document.write("Correcte");
+            document.body.style.background="limegreen";
+        }
+        else{
+           // alert("No et podem deixar entrar");
+           document.write("Incorrecte");
+           document.body.style.background="red";
+        }
+
+        
+
+    </script>
+</body>
+</html>
