@@ -1,0 +1,839 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial;
+    font-family: Poppins;
+}
+@font-face {
+    font-family: 'Poppinssemibold';
+    src: url('../fonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('../fonts/Poppins-SemiBold.woff') format('woff'),
+        url('../fonts/Poppins-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppinsregular';
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2'),
+    url('../fonts/Poppins-Regular.woff') format('woff'),
+    url('../fonts/Poppins-Regular.ttf') format('ttf'),;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppinsthin';
+    src: url('../fonts/Poppins-Thin.woff2') format('woff2'),
+        url('../fonts/Poppins-Thin.woff') format('woff'),
+        url('../fonts/Poppins-Thin.ttf') format('ttf');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:visited{
+    text-decoration: none;
+    color:black;
+}
+.burbuja a{
+    color:white;
+}
+#start{
+    background-color: #38a3a5;
+}
+#start img{
+    position:absolute;
+    height:8rem;
+    top:40%;
+    left:55%;
+    transform: translate(-4rem);
+}
+
+/*Register or Log In*/
+
+#welcome{
+    background-image: radial-gradient(circle farthest-corner at 50% 90%, white 50%,#38a3a5 50%);
+    height:100vh;
+    width:100%;
+    overflow: hidden;
+    
+    background-repeat: no-repeat;
+}
+.logoin{
+    width:120px;
+    left:8rem;
+    top:5rem;
+    position: relative;
+}
+body p{
+    color:white;
+    font-size:43px;
+    top:4rem;
+    left:4.58rem;
+    position: relative;
+    font-family:'Poppinssemibold';
+}
+.intro{
+    font-family: 'Poppinssemibold';
+    font-size: 21pt;
+    color:#22577A;
+    position:relative;
+    text-align: center;
+    top:12rem;
+    left:0.1rem;
+}
+.burbuja{
+    width:10rem;
+    height:2rem;
+    background-color: #38a3a5;
+    border-radius:10%/50%;
+    position: relative;
+    top:13rem;
+    left:6.5rem;
+    margin-top:1.3rem;
+    color:white;
+    font-family: 'Poppinsregular';
+    text-align: center;
+    line-height: 2rem;
+    box-shadow: 2px 3px rgb(53, 163, 165, 0.5);
+
+}
+.convidat{
+    color:#22577A;
+    font-size: 12pt;
+    font-family: 'Poppinsthin';
+    text-decoration-color: #22577A;
+    text-decoration: underline;
+    position: relative;
+    top:15rem;
+    left:6rem;
+}
+.entraramb{
+     color:black;
+     font-size: 12pt;
+     font-family: 'Poppinsthin';
+     left:9rem;
+     top:16.5rem;
+}
+.redes{
+    width:100%;
+    height:4rem;
+    position: relative;
+    left:9.5rem;
+    top:17rem;
+}
+.contenidor{
+    position: relative;
+    bottom:2rem;
+}
+/*Barra*/
+
+.barra{
+    background-color:#38a3a5 ;
+    width:100%;
+    height:70px;
+    position: fixed;
+    z-index:100;
+
+}
+.plan{
+    background-image: url(../img/planeats.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width:55px;
+    height:55px;
+    margin-top: 7px;
+}
+.idioma{
+    background-image: url(../img/Botoidiomes.svg);
+}
+.lupa{
+    background-image: url(../img/Botobuscar.svg);
+
+}
+.idioma, .lupa{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width:25px;
+    height:25px;
+    position: relative;
+    float: right;
+    margin-right: 35px;
+
+}
+.barrados{
+    width:10rem;
+    height:5rem;
+    float: right;
+    position: relative;
+    bottom:40px;
+    margin-right: 60px;
+    z-index:100;
+}
+input{
+    appearance:none;
+    position:fixed;
+    top:1.5rem;
+    right:1rem;
+}
+input:before{
+    content: "---";
+    display: block;
+    width:2rem;
+    height:2rem;
+    background:;
+    font-size: 3rem;
+    line-height:0.5rem;
+    vertical-align: middle;
+}
+input:checked:before{
+    content: "---";
+    display: block;
+    width:2rem;
+    height:2rem;
+    background:;
+    font-size: 3rem;
+    line-height:0.5rem;
+    vertical-align: middle;
+}
+label{
+    width:100%;
+    height:100%;
+    position: fixed;
+    top:0;
+    right:-100%;
+    bottom:0;
+    z-index:20;
+    box-shadow: 0.1rem 0 0.1rem grey;
+    transition:1s;
+}
+input:checked ~ label{
+    right:-55%;
+}
+.logo {
+    width: 2rem;
+    height: 2rem;
+}
+.menu {
+    display: block;
+    height: 100vh;
+    top:0;
+    bottom: 0; 
+    left: 0;
+    right:0;
+    background: grey;
+    padding:0;
+    margin-top: 5rem;
+    z-index: 30;
+}
+.menu li {
+    display: block;
+    width: 11rem;
+    height: 3rem;
+    text-align: center;
+    list-style: none;
+    background: white;
+    margin: 1px;
+    line-height: 3rem;      
+}
+.menu li:last-child {
+    height: 55rem;
+}
+
+/*Home*/
+
+#login{
+    background:white;
+}
+h1{
+    font-family: 'Poppinssemibold';
+    color:black;
+    position: relative;
+    top:5rem;
+    left:0.5rem;
+    font-size: 1.5rem;
+
+}
+.hacheseis a{
+    color:grey;
+    text-decoration-line: underline;
+    position: relative;
+    top:3.6rem;
+    left:6rem;
+    float: left;
+}
+.hacheseis a:hover{
+    color: #38a3a5;
+}
+#re{
+    margin-left:5rem;
+}
+#ru{
+    margin-left:-0.5rem;
+}
+#po{
+    position: relative;
+    left:9rem;
+}
+.finestreta{
+    width:94vw;
+    margin-top: 5rem;
+    margin-bottom:-4rem;
+    height:47vw;
+    overflow-x:scroll;
+  }
+  .slider{
+    width:376vw;
+    height:47vw;
+  }
+  .element{
+    width:40vw;
+    height:40vw;
+    margin:3.5vw;
+    border-radius:5vw;
+    float:left;
+    border:0px solid black;
+    position:relative;
+    box-shadow: black 0 0 2px;
+    background-image:url(../img/lospinos.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size: 40vw/*ancho de la imagen*/ 10vh/*altura de la imagen*/; 
+    }
+  .element .descripcio{
+    width:100%;
+    height:15vw;
+    background:re;
+    position:absolute;
+    bottom:0;
+    border-radius: 0 0 5vw 5vw;
+}
+#lloc{
+    text-decoration-line: none;
+    color:black;
+    font-weight: lighter;
+    position: relative;
+    left:0.5rem;
+}
+
+.descripcio h5{
+    position: relative;
+    left:0.5rem;
+}
+
+/*Restaurants*/
+
+
+.filtros{
+    width:90%;
+    height:2rem;
+    position: relative;
+    top:6rem;
+    margin: 0 auto;
+}
+h3{
+    float: left;
+}
+.filtros img{
+    float: right;
+    position: relative;
+    top:0.5rem;
+    height:1rem;
+}
+.caja{
+    width:90%;
+    height:6rem;
+    margin: 0 auto;
+    top:7rem;
+    margin-bottom: 2rem;
+    position: relative;
+    background-color: gree;
+}
+.imagen{
+    width:95px;
+    height:95px;
+    background-color: blue;
+}
+.texto{
+    height:90px;
+    background-color: darkviole;
+    width:13rem;
+    float: right;
+    position: relative;
+    bottom:5.9rem;
+}
+h4{
+    color:black;
+    font-family: 'Poppinssemibold';
+    width:100%;
+    float: left;
+    margin-bottom:0.4rem;
+    background-color: orang;
+}
+h5{
+    color:black;
+    font-family: 'Poppinsthin';
+    width:100%;
+    float: left;
+    background-color: yello;
+}
+
+/*Perfil*/
+
+.caper{
+    width:90%;
+    background-color: gren;
+    height:7rem;
+    position: relative;
+    top:5rem;
+    margin: 0 auto;
+}
+.foto{
+    height:7rem;
+    background-color: blue;
+    width:7rem;
+    position: relative;
+}
+.nomperfil{
+    color:black;
+    width:8rem;
+    font-size: 1.5rem;
+    position: relative;
+    left:8rem;
+    bottom:7rem;
+    background-color: rd;
+    font-family: 'Poppinssemibold';
+}
+.nomusuari{
+    color:black;
+    width:5.5rem;
+    font-size: 1rem;
+    position: relative;
+    left:8rem;
+    bottom:7rem;
+    background-color: orage;
+    font-family: 'Poppinssemibold';
+}
+.editarperfil{
+    width:10rem;
+    height:2rem;
+    background-color: #38a3a5;
+    border-radius:10%/50%;
+    position: relative;
+    left:2.5rem;
+    bottom:4.4rem;
+    color:white;
+    float: left;
+    font-family: 'Poppinsregular';
+    text-align: center;
+    line-height: 2rem;
+}
+.migper{
+    width:90%;
+    background-color: geen;
+    height:3rem;
+    margin: 0 auto;
+    position: relative;
+    top:8rem;
+}
+.follow{
+    width:33%;
+    height:3rem;
+    margin: 0 auto;
+    background-color:ed;
+    float: left;
+    position: relative;
+    bottom:4.25rem;
+    text-align: center;
+}
+.following{
+    width:33%;
+    height:3rem;
+    margin: 0 auto;
+    background-color: orang;
+    float: left;
+    position: relative;
+    bottom:4.25rem;
+    text-align: center;
+}
+.opinions{
+    width:34%;
+    height:3rem;
+    margin: 0 auto;
+    background-color: yello;
+    float: left;
+    position: relative;
+    bottom:4.25rem;
+    text-align: center;
+}
+.tresper{
+    width:100%;
+    background-color: gren;
+    height:3rem;
+    position: relative;
+    top:9rem;
+}
+.rutes{
+    width:30%;
+    height:3rem;
+    margin: 0 auto;
+    background-color: oange;
+    float: left;
+    position: relative;
+    bottom:4.25rem;
+    text-align: center;
+    line-height: 3rem;
+    border: 1px solid black;
+    border-left:none;
+    box-sizing: border-box;
+}
+.rutes:hover{
+    background-color: lightgrey;
+}
+.resta{
+    width:40%;
+    height:3rem;
+    margin: 0 auto;
+    background-color: vilet;
+    float: left;
+    position: relative;
+    bottom:4.25rem;
+    text-align: center;
+    line-height: 3rem;
+    border-top: 1px solid black;
+    border-bottom:  1px solid black;
+    box-sizing: border-box;
+}
+.resta:hover{
+    background-color: lightgrey;
+}
+.guardas{
+    width:30%;
+    height:3rem;
+    margin: 0 auto;
+    background-color: pnk;
+    float: left;
+    position: relative;
+    bottom:4.25rem;
+    text-align: center;
+    line-height: 3rem;
+    border: 1px solid black;
+    border-right:none;
+    box-sizing: border-box;
+}
+.guardas:hover{
+    background-color: lightgrey;
+}
+.tablafoto{
+    background-color: ed;
+    width:90%;
+    height:23rem;
+    position: relative;
+    top:10rem;
+    margin: 0 auto;
+}
+.fotito{
+    width:95px;
+    height:95px;
+    background-color: ble;
+    border: 1px solid black;
+    margin:4.5px;
+    float: left;
+    left:0.2rem;
+    bottom:3rem;
+    position: relative;
+}
+.fotito:hover{
+    background-color: lightgrey;
+}
+
+/*Historial*/
+
+
+.histoup{
+    width:90%;
+    height:2rem;
+    position: relative;
+    top:6rem;
+    margin: 0 auto;
+}
+h3{
+    float: left;
+}
+.histoup img{
+    float: right;
+    position: relative;
+    top:0.5rem;
+    margin-left:2rem;
+    height:1rem;
+}
+.checkboxes{
+    width:90%;
+    height:36rem;
+    position: relative;
+    top:7rem;
+    margin:0 auto;
+    background-color: ed;
+}
+.fila{
+    width:100%;
+    left:0;
+    margin-bottom:2rem;
+    height:1rem;
+    position: relative;
+    top:1rem;
+    background-color: lue;
+}
+.fila:last-child{
+    padding-bottom:2rem;
+}
+
+.check{
+    background-color: geen;
+    height:1.5rem;
+    width:1.5rem;
+    position: relative;
+    border:solid 0.5px black;  
+    appearance: none;
+}
+.texthist{
+    position: relative;
+    background-color: ornge;
+    left:2.5rem;
+    bottom:1.6rem;
+    float: left;
+    font-size:1rem;
+}
+.data{
+    position: relative;
+    background-color: vilet;
+    float: right;
+    font-size:1rem;
+    bottom:1.6rem;
+}
+
+/*Configuració*/
+
+.config{
+    width:80%;
+    margin: 0 auto;
+    background-color: ed;
+    height:35rem;
+    position: relative;
+    top:6rem;
+    border-radius: 10%/5%;
+    border:1px solid grey;
+}
+.diviconfi{
+    width:100%;
+    margin:0 auto;
+    height:3rem;
+    background-color: blu;
+    position: relative;
+}
+.config h4{
+    line-height: 3rem;
+    font-family: 'Poppinssemibold';
+    text-align: center;
+}
+hr{
+    position: relative;
+    top:0.5rem;
+}
+.filaconfi{
+    width:100%;
+    background-color: rd;
+    height:2rem;
+    margin-top:1rem;
+}
+.filaconfi img{
+    width:1.5rem;
+    height:1.5rem;
+    position: relative;
+    top:0.2rem;
+    left:0.4rem;
+    float: left;
+}
+.filaconfi h3{
+    font-family: 'Poppinsthin';
+    position: relative;
+    line-height:2rem;
+    left:1.2rem;
+}
+.flechita{
+    width:1.5rem;
+    height:1.5rem;
+    position: relative;
+    rotate:180deg;
+    float: right;
+    top:0.4rem;
+}
+                                 /*  FITXA RESTAURANTS */
+
+
+.pinos{
+    width:90%;
+    height:2rem;
+    top:6rem;
+    position: relative;
+    margin:0 auto;
+    
+    
+}.fletxa{
+    width: 1rem;
+    height:1.2rem;
+    background-image:url(../img/Fletxa\ enrere.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    margin-top: 3px;
+    
+}
+.pinos h3{
+    float:left;
+    margin-left:0.75rem;
+}
+.compartir{
+    width: 1rem;
+    height:1.2rem;
+    background-image:url(../img/Icono\ compartir.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float:right;
+    margin-top: 3px;
+    margin-right:1.5rem;
+}
+.guardar{
+    width: 1rem;
+    height:1.2rem;
+    background-image:url(../img/Icono\ guardar.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float:right;
+    margin-top: 3px;
+    margin-right: 0.5rem;
+    
+
+}
+.carta{
+    width: 90%;
+    height:15rem;
+    margin:7rem auto 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../img/lospinos.jpg);
+}
+.carta_descripcio{
+    width: 100%;
+    height:4rem;
+    background:white;
+    position: absolute;
+    bottom: 15px;
+    overflow: scroll;
+    font-family: 'Poppinsthin';
+    font-size: 10pt;
+    padding-top: 5px;
+} 
+.info_interes{
+    width:90%;
+    height:3rem;
+    background:;
+    float:left;
+    margin-left:1.12rem;
+    position:relative;
+}
+.boto{
+    width:9rem;
+    height:2rem;
+    background: white;
+    border-radius:10%/50%;
+    border: 1px solid #38a3a5;
+    box-sizing: border-box;
+    float: left;
+    margin: 0.5rem  0 0 0.65rem;
+    text-align: center;
+    color: #38a3a5;
+    font-size: 12pt;
+    font-family: 'Poppinsregular';
+    line-height: 2rem;
+}
+hr{
+    height:0.2vw;
+    background-color: grey;
+    
+}
+.contenidor-2 h4{
+    margin-left:1.1rem;
+    margin-top:1.5rem;
+}
+.contenidor-1{
+    width: 100%;
+    height: 450px;
+    
+    float: left;
+}
+.contenidor-2{
+    width: 100%;
+    height: 320px;
+    float: left;
+    position:relative;
+}
+.ressenyes{
+    width:90%;
+    height:3rem;
+    margin: 0.5rem auto;
+}
+.contenidor-3{
+    width: 100%;
+    height: 200px;
+    float: left;
+    position:relative;
+}
+
+.perfil{
+    width: 3rem;
+    height:3rem;
+    background-image: url(../img/Imatge\ usuari\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+b{
+    float: left;
+    margin-left: 1rem;
+    
+}
+
+.usuari{
+    
+    height: 1.5rem;
+    float:left;
+}
+.estrelles{
+    width: 6rem;
+    height:1.3rem;
+    float:left;
+   background-image: url(../img/Grupo\ 78.svg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   margin: 0.2rem 0 0 1rem ;   
+}
+.valoracio{
+    height: 1.5rem;
+    width:250px;
+    float:left;
+    margin-left: 1rem;
+    
+}
+.contenidor-3 h4{
+    margin-left:1.1rem;
+    margin-top:1.5rem;
+}
+
